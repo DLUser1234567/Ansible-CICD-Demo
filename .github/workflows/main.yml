@@ -34,5 +34,5 @@ jobs:
       - name: Ansible Techforum22 Demo Execution
         working-directory: /playbook
         run: |
-         ansible-playbook apache.yml --diff --check,
-         ansible-playbook apache.yml --diff
+          ansible-playbook apache.yml --diff --check
+          ansible-playbook apache.yml --diff
